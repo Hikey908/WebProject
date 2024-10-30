@@ -1,5 +1,17 @@
+.courses-section {
+  padding: 40px 0; /* Add spacing around the section */
+  background-color: #f4f4f4; /* Light background for contrast */
+}
+
 .single__course__item {
   padding: 15px;
+  border: 1px solid #ddd; /* Light border around course cards */
+  border-radius: 10px; /* Rounded corners */
+  transition: box-shadow 0.2s; /* Smooth hover effect */
+}
+
+.single__course__item:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Shadow on hover */
 }
 
 .course__img img {
@@ -7,25 +19,25 @@
   margin-bottom: 20px;
 }
 
-.enroll a {
+.enroll {
+  margin-top: 15px; /* Spacing for the enroll button */
+}
+
+.enroll-link {
   text-decoration: none;
   font-weight: 600;
-  font-size: 0.9rem;
-  color: #17bf9e;
+  font-size: 1rem;
+  color: #17bf9e; /* Primary color */
+  padding: 10px 20px; /* Button padding */
+  background-color: #ffffff; /* Button background */
+  border-radius: 5px; /* Rounded button */
+  border: 1px solid #17bf9e; /* Button border */
+  transition: background-color 0.2s; /* Smooth color change */
 }
 
-.lesson,
-.students,
-.rating {
-  font-size: 0.9rem;
-  color: #0a2b1e;
-  font-weight: 500;
-}
-
-.lesson i,
-.students i,
-.rating i {
-  font-weight: 400;
+.enroll-link:hover {
+  background-color: #17bf9e; /* Change color on hover */
+  color: white; /* Text color change on hover */
 }
 
 .course__title {

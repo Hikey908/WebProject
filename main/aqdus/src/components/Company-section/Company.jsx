@@ -2,50 +2,34 @@ import React from "react";
 import { Container, Row, Col } from "reactstrap";
 import './company-section.css';
 
-
 const Company = () => {
   return (
-    <section>
+    <section className="company-section">
       <Container>
-        <Row>
+        <Row className="justify-content-center text-center">
           <Col lg="2" md="3" sm="4" xs="6">
-            <h3 className=" d-flex align-items-center gap-1">
-              <i></i> Forum
-            </h3>
+            <div className="company-item">
+              <h3>
+                <i className="ri-forum-line"></i> Forum
+              </h3>
+            </div>
           </Col>
 
           <Col lg="2" md="3" sm="4" xs="6">
-            <h3 className=" d-flex align-items-center nospace gap-1">
-              <i></i> Video call
-            </h3>
+            <div className="company-item">
+              <h3>
+                <i className="ri-video-line"></i> Video Call
+              </h3>
+            </div>
           </Col>
 
           <Col lg="2" md="3" sm="4" xs="6">
-            <h3 className=" d-flex align-items-center nospace gap-1">
-              <i></i> Live Interaction
-            </h3>
+            <div className="company-item">
+              <h3>
+                <i className="ri-chat-line"></i> Live Interaction
+              </h3>
+            </div>
           </Col>
-
-          {/* <Col lg="2" md="3" sm="4" xs="6">
-            <h3 className=" d-flex align-items-center gap-1">
-              {" "}
-              <i></i> Apple
-            </h3>
-          </Col>
-
-          <Col lg="2" md="3" sm="4" xs="6">
-            <h3 className=" d-flex align-items-center gap-1">
-              {" "}
-              <i></i> Finder
-            </h3>
-          </Col>
-
-          <Col lg="2" md="3" sm="4" xs="6">
-            <h2 className=" d-flex align-items-center gap-1">
-              {" "}
-              <i></i> Google
-            </h2>
-          </Col> */}
         </Row>
       </Container>
     </section>

@@ -1,3 +1,36 @@
-.nospace{
-    white-space: nowrap;
-}
+.company-section {
+    padding: 30px 0; /* Add padding for better spacing */
+    background-color: #f9f9f9; /* Light background for contrast */
+  }
+  
+  .company-item {
+    border: 1px solid #ddd; /* Light border around items */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding inside each item */
+    transition: transform 0.2s; /* Smooth hover effect */
+  }
+  
+  .company-item:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  }
+  
+  .company-item h3 {
+    font-weight: 600; /* Bolder text */
+    color: #0a2b1e; /* Consistent color with other sections */
+  }
+  
+  .nospace {
+    white-space: nowrap; /* Prevent text wrapping */
+  }
+  
+  /* Centering the icons and text */
+  .text-center {
+    text-align: center; /* Center text */
+  }
+  
+  /* Ensure Row items are spaced evenly */
+  .row.justify-content-center {
+    justify-content: center; /* Center the items within the Row */
+  }
+  

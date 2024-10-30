@@ -1,7 +1,32 @@
+.features__section {
+  background-color: #f7f9fc; /* Light background for contrast */
+}
+
+.single__feature {
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.single__feature:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow on hover */
+}
+
 .single__feature h2 i {
-  font-size: 2.5rem;
+  font-size: 3rem; /* Larger icon for emphasis */
+  color: #17bf9e; /* Matching icon color */
 }
 
 .single__feature h6 {
   font-weight: 600;
+  color: #333; /* Darker text color for better readability */
+  margin-top: 15px; /* Spacing above the title */
+}
+
+.single__feature p {
+  color: #555; /* Slightly lighter color for the description */
+  line-height: 1.6; /* Improved line height for readability */
+}
+
+.single__feature p.feature-desc {
+  margin-top: 10px; /* Spacing above the description */
 }

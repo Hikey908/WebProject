@@ -111,13 +111,33 @@ const Footer = () => {
             </ListGroup>
           </Col>
 
-          <Col lg="3" md="6">
+          {/* <Col lg="3" md="6">
             <h6 className="fw-bold">Get in Touch</h6>
 
             <p>Address: Byculla, Mumbai</p>
             <p> Phone: +88 0123456XXX </p>
             <p>Email: StudySphere@gmail.com</p>
+          </Col> */}
+          <Col lg="3" md="6" className="mb-4">
+            <h6 className="fw-bold">Get in Touch</h6>
+
+            <ul className="list-unstyled" style={{ fontSize: '1.1rem' }}>
+              <li className="mb-3">
+                <i className="ri-map-pin-line me-2" style={{ fontSize: '1.5rem', verticalAlign: 'middle' }}></i>
+                <span><strong>Address:</strong> Byculla, Mumbai, Maharashtra, India</span>
+              </li>
+              <li className="mb-3">
+                <i className="ri-phone-line me-2" style={{ fontSize: '1.5rem', verticalAlign: 'middle' }}></i>
+                <span><strong>Phone:</strong> +91-123456XXXX</span>
+              </li>
+              <li className="mb-3">
+                <i className="ri-mail-line me-2" style={{ fontSize: '1.5rem', verticalAlign: 'middle' }}></i>
+                <span><strong>Email:</strong> support@studysphere.com</span>
+              </li>
+            </ul>
           </Col>
+
+
         </Row>
       </Container>
     </footer>
